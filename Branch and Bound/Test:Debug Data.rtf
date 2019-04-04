@@ -1,0 +1,377 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1344\cocoasubrtf720
+{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;\f1\fnil\fcharset0 Menlo-Bold;}
+{\colortbl;\red255\green255\blue255;\red63\green110\blue116;\red38\green71\blue75;\red28\green0\blue207;
+}
+\margl1440\margr1440\vieww23480\viewh8080\viewkind0
+\deftab529
+\pard\tx529\pardeftab529\pardirnatural
+
+\f0\fs22 \cf0 \ul \ulc0 \CocoaLigature0 INPUT\cf2 \ulnone \
+\
+p=1, M=10\
+Run\cf0 ::\cf3 BranchandBound\cf0 (theta2,p,\cf4 M\cf0 ,\cf4 0\cf0 ,\cf4 10\cf0 );\
+\
+\pard\tx529\pardeftab529\pardirnatural
+\cf0 \ul \ulc0 OUTPUT\
+\
+\pard\tx529\pardeftab529\pardirnatural
+
+\f1\b \cf0 \ulnone The matrix has 29 rows and 666 columns\
+There some extra numbers after the specified matrix!\
+Validation checks complete\
+bigtheta has 29 rows and 666 columns\
+Global instance setup complete\
+\
+The startbus we choose for the root is: 28\
+\
+GLPK Simplex Optimizer, v4.55\
+667 rows, 30 columns, 19873 non-zeros\
+      0: obj =   0.000000000e+00  infeas =  9.000e+00 (1)\
+*     9: obj =   0.000000000e+00  infeas =  0.000e+00 (1)\
+*    32: obj =   2.640122777e-04  infeas =  0.000e+00 (0)\
+OPTIMAL LP SOLUTION FOUND\
+The root node's firstbus is: 23\
+Root Node setup complete\
+Starting U_0 is: 0.000264012\
+Starting L_0 is: 0.00026178\
+Starting U_0 - L_0 is: 2.23182e-06\
+MaxUpper and MaxLower setup complete\
+maxU and maxL initialization complete\
+\
+\
+Beginning main algorithm loop...\
+\
+The path of the top node is:  28\
+The current node's firstbus is: 23\
+\
+Expansion phase 1 complete\
+GLPK Simplex Optimizer, v4.55\
+667 rows, 30 columns, 19873 non-zeros\
+      0: obj =   0.000000000e+00  infeas =  9.000e+00 (1)\
+*     9: obj =   0.000000000e+00  infeas =  0.000e+00 (1)\
+*    30: obj =   2.608798413e-04  infeas =  0.000e+00 (0)\
+OPTIMAL LP SOLUTION FOUND\
+Expansion phase 2 complete\
+GLPK Simplex Optimizer, v4.55\
+667 rows, 30 columns, 19873 non-zeros\
+      0: obj =   0.000000000e+00  infeas =  8.000e+00 (1)\
+*     8: obj =   0.000000000e+00  infeas =  0.000e+00 (1)\
+*    28: obj =   2.640122777e-04  infeas =  0.000e+00 (0)\
+OPTIMAL LP SOLUTION FOUND\
+Expansion phase 3 complete\
+Expand done\
+\
+The path of the left node after expansion is:  28 -23\
+The left node's firstbus (after expansion) is: 20\
+\
+\
+The path of the right node after expansion is:  28 23\
+The right node's firstbus (after expansion) is: 20\
+\
+\
+The current U_k is: 0.000264012\
+\
+The current L_k is: 0.00026178\
+\
+The current U_k - L_k is: 2.23182e-06\
+\
+End of iteration: 1\
+\
+\
+The path of the top node is:  28 23\
+The current node's firstbus is: 20\
+\
+Expansion phase 1 complete\
+GLPK Simplex Optimizer, v4.55\
+667 rows, 30 columns, 19873 non-zeros\
+      0: obj =   0.000000000e+00  infeas =  8.000e+00 (1)\
+*     8: obj =   0.000000000e+00  infeas =  0.000e+00 (1)\
+*    26: obj =   1.701889594e-05  infeas =  0.000e+00 (0)\
+OPTIMAL LP SOLUTION FOUND\
+Expansion phase 2 complete\
+GLPK Simplex Optimizer, v4.55\
+667 rows, 30 columns, 19873 non-zeros\
+      0: obj =   0.000000000e+00  infeas =  7.000e+00 (1)\
+*     7: obj =   0.000000000e+00  infeas =  0.000e+00 (1)\
+*    26: obj =   2.640122777e-04  infeas =  0.000e+00 (0)\
+OPTIMAL LP SOLUTION FOUND\
+Expansion phase 3 complete\
+Expand done\
+\
+The path of the left node after expansion is:  28 23 -20\
+The left node's firstbus (after expansion) is: 21\
+\
+\
+The path of the right node after expansion is:  28 23 20\
+The right node's firstbus (after expansion) is: 4\
+\
+\
+The current U_k is: 0.000264012\
+\
+The current L_k is: 0.00026178\
+\
+The current U_k - L_k is: 2.23182e-06\
+\
+End of iteration: 2\
+\
+\
+The path of the top node is:  28 23 20\
+The current node's firstbus is: 4\
+\
+Expansion phase 1 complete\
+GLPK Simplex Optimizer, v4.55\
+667 rows, 30 columns, 19873 non-zeros\
+      0: obj =   0.000000000e+00  infeas =  7.000e+00 (1)\
+*     7: obj =   0.000000000e+00  infeas =  0.000e+00 (1)\
+*     8: obj =   6.223913449e-31  infeas =  0.000e+00 (1)\
+OPTIMAL LP SOLUTION FOUND\
+Expansion phase 2 complete\
+GLPK Simplex Optimizer, v4.55\
+667 rows, 30 columns, 19873 non-zeros\
+      0: obj =   0.000000000e+00  infeas =  6.000e+00 (1)\
+*     6: obj =   0.000000000e+00  infeas =  0.000e+00 (1)\
+*    23: obj =   2.634648929e-04  infeas =  0.000e+00 (0)\
+OPTIMAL LP SOLUTION FOUND\
+Expansion phase 3 complete\
+Expand done\
+\
+The path of the left node after expansion is:  28 23 20 -4\
+The left node's firstbus (after expansion) is: 6\
+\
+\
+The path of the right node after expansion is:  28 23 20 4\
+The right node's firstbus (after expansion) is: 8\
+\
+\
+The current U_k is: 0.000263465\
+\
+The current L_k is: 0.00026178\
+\
+The current U_k - L_k is: 1.68444e-06\
+\
+End of iteration: 3\
+\
+\
+The path of the top node is:  28 23 20 4\
+The current node's firstbus is: 8\
+\
+Expansion phase 1 complete\
+GLPK Simplex Optimizer, v4.55\
+667 rows, 30 columns, 19873 non-zeros\
+      0: obj =   0.000000000e+00  infeas =  6.000e+00 (1)\
+*     6: obj =   0.000000000e+00  infeas =  0.000e+00 (1)\
+*    23: obj =   2.634648929e-04  infeas =  0.000e+00 (0)\
+OPTIMAL LP SOLUTION FOUND\
+Expansion phase 2 complete\
+GLPK Simplex Optimizer, v4.55\
+667 rows, 30 columns, 19873 non-zeros\
+      0: obj =   0.000000000e+00  infeas =  5.000e+00 (1)\
+*     5: obj =   0.000000000e+00  infeas =  0.000e+00 (1)\
+*    20: obj =   2.628522725e-04  infeas =  0.000e+00 (0)\
+OPTIMAL LP SOLUTION FOUND\
+Expansion phase 3 complete\
+Expand done\
+\
+The path of the left node after expansion is:  28 23 20 4 -8\
+The left node's firstbus (after expansion) is: 10\
+\
+\
+The path of the right node after expansion is:  28 23 20 4 8\
+The right node's firstbus (after expansion) is: 13\
+\
+\
+The current U_k is: 0.000263465\
+\
+The current L_k is: 0.00026178\
+\
+The current U_k - L_k is: 1.68444e-06\
+\
+End of iteration: 4\
+\
+\
+The path of the top node is:  28 23 20 4 -8\
+The current node's firstbus is: 10\
+\
+Expansion phase 1 complete\
+GLPK Simplex Optimizer, v4.55\
+667 rows, 30 columns, 19873 non-zeros\
+      0: obj =   0.000000000e+00  infeas =  6.000e+00 (1)\
+*     6: obj =   0.000000000e+00  infeas =  0.000e+00 (1)\
+*     7: obj =   4.478539437e-31  infeas =  0.000e+00 (1)\
+OPTIMAL LP SOLUTION FOUND\
+Expansion phase 2 complete\
+GLPK Simplex Optimizer, v4.55\
+667 rows, 30 columns, 19873 non-zeros\
+      0: obj =   0.000000000e+00  infeas =  5.000e+00 (1)\
+*     5: obj =   0.000000000e+00  infeas =  0.000e+00 (1)\
+*    20: obj =   2.628522725e-04  infeas =  0.000e+00 (0)\
+OPTIMAL LP SOLUTION FOUND\
+Expansion phase 3 complete\
+Expand done\
+\
+The path of the left node after expansion is:  28 23 20 4 -8 -10\
+The left node's firstbus (after expansion) is: 21\
+\
+\
+The path of the right node after expansion is:  28 23 20 4 -8 10\
+The right node's firstbus (after expansion) is: 13\
+\
+\
+The current U_k is: 0.000262852\
+\
+The current L_k is: 0.00026178\
+\
+The current U_k - L_k is: 1.07182e-06\
+\
+End of iteration: 5\
+\
+\
+The path of the top node is:  28 23 20 4 8\
+The current node's firstbus is: 13\
+\
+Expansion phase 1 complete\
+GLPK Simplex Optimizer, v4.55\
+667 rows, 30 columns, 19873 non-zeros\
+      0: obj =   0.000000000e+00  infeas =  5.000e+00 (1)\
+*     5: obj =   0.000000000e+00  infeas =  0.000e+00 (1)\
+*    17: obj =   9.764295732e-05  infeas =  0.000e+00 (0)\
+OPTIMAL LP SOLUTION FOUND\
+Expansion phase 2 complete\
+GLPK Simplex Optimizer, v4.55\
+667 rows, 30 columns, 19873 non-zeros\
+      0: obj =   0.000000000e+00  infeas =  4.000e+00 (1)\
+*     4: obj =   0.000000000e+00  infeas =  0.000e+00 (1)\
+*    16: obj =   2.624572929e-04  infeas =  0.000e+00 (0)\
+OPTIMAL LP SOLUTION FOUND\
+Expansion phase 3 complete\
+Expand done\
+\
+The path of the left node after expansion is:  28 23 20 4 8 -13\
+The left node's firstbus (after expansion) is: 14\
+\
+\
+The path of the right node after expansion is:  28 23 20 4 8 13\
+The right node's firstbus (after expansion) is: 7\
+\
+\
+The current U_k is: 0.000262852\
+\
+The current L_k is: 0.00026178\
+\
+The current U_k - L_k is: 1.07182e-06\
+\
+End of iteration: 6\
+\
+\
+The path of the top node is:  28 23 20 4 -8 10\
+The current node's firstbus is: 13\
+\
+Expansion phase 1 complete\
+GLPK Simplex Optimizer, v4.55\
+667 rows, 30 columns, 19873 non-zeros\
+      0: obj =   0.000000000e+00  infeas =  5.000e+00 (1)\
+*     5: obj =   0.000000000e+00  infeas =  0.000e+00 (1)\
+*    17: obj =   9.764295732e-05  infeas =  0.000e+00 (0)\
+OPTIMAL LP SOLUTION FOUND\
+Expansion phase 2 complete\
+GLPK Simplex Optimizer, v4.55\
+667 rows, 30 columns, 19873 non-zeros\
+      0: obj =   0.000000000e+00  infeas =  4.000e+00 (1)\
+*     4: obj =   0.000000000e+00  infeas =  0.000e+00 (1)\
+*    16: obj =   2.624572929e-04  infeas =  0.000e+00 (0)\
+OPTIMAL LP SOLUTION FOUND\
+Expansion phase 3 complete\
+Expand done\
+\
+The path of the left node after expansion is:  28 23 20 4 -8 10 -13\
+The left node's firstbus (after expansion) is: 14\
+\
+\
+The path of the right node after expansion is:  28 23 20 4 -8 10 13\
+The right node's firstbus (after expansion) is: 7\
+\
+\
+The current U_k is: 0.000262457\
+\
+The current L_k is: 0.00026178\
+\
+The current U_k - L_k is: 6.76839e-07\
+\
+End of iteration: 7\
+\
+\
+The path of the top node is:  28 23 20 4 8 13\
+The current node's firstbus is: 7\
+\
+Expansion phase 1 complete\
+GLPK Simplex Optimizer, v4.55\
+667 rows, 30 columns, 19873 non-zeros\
+      0: obj =   0.000000000e+00  infeas =  4.000e+00 (1)\
+*     4: obj =   0.000000000e+00  infeas =  0.000e+00 (1)\
+*    14: obj =   2.459947415e-04  infeas =  0.000e+00 (0)\
+OPTIMAL LP SOLUTION FOUND\
+Expansion phase 2 complete\
+GLPK Simplex Optimizer, v4.55\
+667 rows, 30 columns, 19873 non-zeros\
+      0: obj =   0.000000000e+00  infeas =  3.000e+00 (1)\
+*     3: obj =   0.000000000e+00  infeas =  0.000e+00 (1)\
+*    12: obj =   2.617804534e-04  infeas =  0.000e+00 (0)\
+OPTIMAL LP SOLUTION FOUND\
+Expansion phase 3 complete\
+Expand done\
+\
+The path of the left node after expansion is:  28 23 20 4 8 13 -7\
+The left node's firstbus (after expansion) is: 27\
+\
+\
+The path of the right node after expansion is:  28 23 20 4 8 13 7\
+The right node's firstbus (after expansion) is: 24\
+\
+\
+The current U_k is: 0.000262457\
+\
+The current L_k is: 0.00026178\
+\
+The current U_k - L_k is: 6.76839e-07\
+\
+End of iteration: 8\
+\
+\
+The path of the top node is:  28 23 20 4 -8 10 13\
+The current node's firstbus is: 7\
+\
+Expansion phase 1 complete\
+GLPK Simplex Optimizer, v4.55\
+667 rows, 30 columns, 19873 non-zeros\
+      0: obj =   0.000000000e+00  infeas =  4.000e+00 (1)\
+*     4: obj =   0.000000000e+00  infeas =  0.000e+00 (1)\
+*    14: obj =   2.459947415e-04  infeas =  0.000e+00 (0)\
+OPTIMAL LP SOLUTION FOUND\
+Expansion phase 2 complete\
+GLPK Simplex Optimizer, v4.55\
+667 rows, 30 columns, 19873 non-zeros\
+      0: obj =   0.000000000e+00  infeas =  3.000e+00 (1)\
+*     3: obj =   0.000000000e+00  infeas =  0.000e+00 (1)\
+*    12: obj =   2.617804534e-04  infeas =  0.000e+00 (0)\
+OPTIMAL LP SOLUTION FOUND\
+Expansion phase 3 complete\
+Expand done\
+\
+The path of the left node after expansion is:  28 23 20 4 -8 10 13 -7\
+The left node's firstbus (after expansion) is: 27\
+\
+\
+The path of the right node after expansion is:  28 23 20 4 -8 10 13 7\
+The right node's firstbus (after expansion) is: 24\
+\
+\
+The current U_k is: 0.00026178\
+\
+The current L_k is: 0.00026178\
+\
+The current U_k - L_k is: 0\
+\
+End of iteration: 9\
+\
+Loop Complete\
+Algorithm complete}
